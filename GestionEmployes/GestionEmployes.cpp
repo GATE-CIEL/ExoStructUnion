@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-struct Dates
+struct SDate
 {
-
+    int jour;
+    int mois;
+    int annee;
 };
 
 int main() {
