@@ -53,12 +53,13 @@ int main() {
     tabCasiers[2] = c2;                             // c2 à l'indice 2
 
     cout << "Programme : Transgerbeur" << endl;
-    cout << "Taille de chaque elements : \n";
+    cout << "Taille de chaque elements en octets : \n";
     cout << "Taille de ro1 : "<<sizeof(ro1)<<endl;
     cout << "Taille de pa1 : " << sizeof(pa1) << endl;
-    cout << "Taille de etatC1  : " << sizeof(etatC1) << endl;
-    cout << "Taille de cont  : " << sizeof(cont) << endl;
-    cout << "Taille de c1  : " << sizeof(c1) << endl;
+    cout << "Taille de etatC1 : " << sizeof(etatC1) << endl;
+    cout << "Taille de cont : " << sizeof(cont) << endl;
+    cout << "Taille de c1 : " << sizeof(c1) << endl;
+    cout << "Taille de c2 : " << sizeof(c2) << endl;
     cout << "Taille de tabCasiers  : " << sizeof(tabCasiers) << endl;
 
     return 0;
