@@ -19,6 +19,10 @@ struct SEmployes
 };
 
 int main() {
+    SEmployes assistant = {
+        "Dupont", "Jean", {25,11,2026},{26,11,2026}
+    };
+
     cout << "Programme : GestionEmployes" << endl;
     return 0;
 }
